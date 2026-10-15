@@ -21,7 +21,7 @@ def keep_alive():
 
 # Ключі доступу
 TELEGRAM_TOKEN = "8241414245:AAG_1ubAk1-Gq6YwOKYpjpq5Sf1QtZPhxh4"
-GEMINI_API_KEY = "AQ.Ab8RN6JXRgRQBwcOkrOSs80xmlQMY3WJIczSwMa8J3u4GYSgtA"
+GEMINI_API_KEY = "AQ.Ab8RN6KVK80pp-VHNKqYAXBphQLusCXYGcnBaYwlVqrBH35odA"
 
 # Налаштування Gemini
 genai.configure(api_key=GEMINI_API_KEY)
@@ -35,7 +35,7 @@ system_prompt = (
 )
 
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
+    model_name="gemini-2.0-flash",
     system_instruction=system_prompt
 )
 
