@@ -43,9 +43,10 @@ bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
 @bot.message_handler(func=lambda message: True)
 def handle_message(message):
+    print(f"Отримано повідомлення: {message.text}")  # Выведет текст в логи Render
     try:
-        # Відправляємо запит до Gemini
         response = model.generate_content(message.text)
+        print(f"Відповідь Gemini: {response.text}")  # Выведет ответ в логи Render
         if response.text:
             bot.reply_to(message, response.text)
         else:
