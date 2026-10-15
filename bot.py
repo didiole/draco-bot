@@ -20,7 +20,7 @@ def keep_alive():
     t.start()
 
 # --- Ваші ключі ---
-TELEGRAM_TOKEN = "8939232045:AAHNxFoum1XKcbCGJX_txnrTHZebTpXZg9Y"
+TELEGRAM_TOKEN = "8939185433:AAEk4SJGIwqrrJzbanxHW5VEssBc57xD1e8"
 GEMINI_API_KEY = "AQ.Ab8RN6JgZZCdo-6hUsHDOjx-zp64Sd6_zQD0oXPvi-A1rwAVow"
 
 genai.configure(api_key=GEMINI_API_KEY)
