@@ -20,7 +20,7 @@ def keep_alive():
     t.start()
 
 # Ключі доступу
-TELEGRAM_TOKEN = "8939185433:AAGfA5rLUwlyO46GWi1uYbSEI2dc8pPQsRw"
+TELEGRAM_TOKEN = "8939185433:AAHsOzrkRyu6aSvkAC1_HXmoAZ9WZ0-9GeI"
 GEMINI_API_KEY = "AQ.Ab8RN6JXRgRQBwcOkrOSs80xmlQMY3WJIczSwMa8J3u4GYSgtA"
 
 # Налаштування Gemini
